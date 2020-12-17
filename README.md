@@ -31,11 +31,11 @@ The arrangement of the file system is consistent with the calculations under pho
 |&emsp;|&emsp;|-- XDATCAR\
 |&emsp;|&emsp;|-- jobscript\
 |&emsp;|&emsp;|-- vasp.log\
-|&emsp;|&emsp;`-- vasprun.xml  
+|&emsp;|&emsp;\`-- vasprun.xml  
 |&emsp;|-- disp-002\
 |&emsp;|&emsp;...\
 |&emsp;...\
-|&emsp;`-- thermal_properties.yaml\  
+|&emsp;\`-- thermal_properties.yaml\  
 |-- phonon-01\  
 ...\
 ...\
