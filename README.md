@@ -50,8 +50,8 @@ The arrangement of the file system is consistent with the calculations under pho
 6. Create POSCAR with different volume: python3 scripts/scale_lattice.py PATH_TO_CONTCAR
 7. Generate supercell with displacements phonopy -d --dim="a b c" (<a b c> is the size of the supercell)
 8. Set up disp-*** folders: python3 scripts/prepare_files.py disp and submit jobs
-9. Generate FORCE_STES: phonopy -f disp-*/vasprun.xml 1> /dev/null; echo "Finish generating FORCE_SETS for ${i}."
-10. Generate thermal_properties.yaml: phonopy -t ../mesh.conf 1> /dev/null; echo "Finish generating thermal_properties.yaml for ${i}."
+9. Generate FORCE_STES: phonopy -f disp-*/vasprun.xml 1> /dev/null; echo "Finish generating FORCE_SETS."
+10. Generate thermal_properties.yaml: phonopy -t ../mesh.conf 1> /dev/null; echo "Finish generating thermal_properties.yaml."
 11. Prepare e-v.dat file. python3 scripts/energy_volume.py --number NUM_OF_VOLUME
 12. Calculate Gibbs energy up to 2000 K: phonopy-qha --tmax 2000 e-v.dat phonon-0*/thermal_properties.yaml
 13. Calculate Gibbs energy difference: python3 scripts/calculate_Gd.py
