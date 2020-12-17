@@ -4,41 +4,41 @@ python scripts for conducting Quasi harmonic approximation phonon calculations u
 # File system
 The arrangement of the file system is consistent with the calculations under phonondb: http://phonondb.mtl.kyoto-u.ac.jp/ph20151124/index.html
 
-|-- equilibrium  
-|-- phonon-00  
-|   |-- FORCE_SETS  
-|   |-- POSCAR  
-|   |-- SPOSCAR  
-|   |-- mesh.yaml  
-|   |-- phonopy.yaml  
-|   |-- phonopy_disp.yaml  
-|   |-- disp-001  
-|   |   |-- CHG  
-|   |   |-- CHGCAR  
-|   |   |-- CONTCAR  
-|   |   |-- DOSCAR  
-|   |   |-- EIGENVAL  
-|   |   |-- IBZKPT  
-|   |   |-- INCAR  
-|   |   |-- KPOINTS  
-|   |   |-- OSZICAR  
-|   |   |-- OUTCAR  
-|   |   |-- PCDAT  
-|   |   |-- POSCAR  
-|   |   |-- POTCAR  
-|   |   |-- REPORT  
-|   |   |-- WAVECAR  
-|   |   |-- XDATCAR  
-|   |   |-- jobscript  
-|   |   |-- vasp.log  
+|-- equilibrium\
+|-- phonon-00\
+|&ensp|-- FORCE_SETS\
+|&ensp|-- POSCAR\
+|&ensp|-- SPOSCAR\
+|   |-- mesh.yaml\
+|   |-- phonopy.yaml\
+|   |-- phonopy_disp.yaml\
+|   |-- disp-001\
+|   |   |-- CHG\
+|   |   |-- CHGCAR\
+|   |   |-- CONTCAR\
+|   |   |-- DOSCAR\
+|   |   |-- EIGENVAL\
+|   |   |-- IBZKPT\
+|   |   |-- INCAR\
+|   |   |-- KPOINTS\
+|   |   |-- OSZICAR\
+|   |   |-- OUTCAR\
+|   |   |-- PCDAT\
+|   |   |-- POSCAR\
+|   |   |-- POTCAR\
+|   |   |-- REPORT\
+|   |   |-- WAVECAR\
+|   |   |-- XDATCAR\
+|   |   |-- jobscript\
+|   |   |-- vasp.log\
 |   |   `-- vasprun.xml  
-|   |-- disp-002  
-|   |   ...  
-|   ...  
-|   `-- thermal_properties.yaml  
-|-- phonon-01  
-...  
-...  
+|   |-- disp-002\
+|   |   ...\
+|   ...\
+|   `-- thermal_properties.yaml\  
+|-- phonon-01\  
+...\
+...\
 
 
 # workflow
