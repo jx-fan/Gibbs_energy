@@ -6,36 +6,36 @@ The arrangement of the file system is consistent with the calculations under pho
 
 |-- equilibrium\
 |-- phonon-00\
-|&ensp|-- FORCE_SETS\
-|&ensp|-- POSCAR\
-|&ensp|-- SPOSCAR\
-|   |-- mesh.yaml\
-|   |-- phonopy.yaml\
-|   |-- phonopy_disp.yaml\
-|   |-- disp-001\
-|   |   |-- CHG\
-|   |   |-- CHGCAR\
-|   |   |-- CONTCAR\
-|   |   |-- DOSCAR\
-|   |   |-- EIGENVAL\
-|   |   |-- IBZKPT\
-|   |   |-- INCAR\
-|   |   |-- KPOINTS\
-|   |   |-- OSZICAR\
-|   |   |-- OUTCAR\
-|   |   |-- PCDAT\
-|   |   |-- POSCAR\
-|   |   |-- POTCAR\
-|   |   |-- REPORT\
-|   |   |-- WAVECAR\
-|   |   |-- XDATCAR\
-|   |   |-- jobscript\
-|   |   |-- vasp.log\
-|   |   `-- vasprun.xml  
-|   |-- disp-002\
-|   |   ...\
-|   ...\
-|   `-- thermal_properties.yaml\  
+|&emsp;|-- FORCE_SETS\
+|&emsp;|-- POSCAR\
+|&emsp;|-- SPOSCAR\
+|&emsp;|-- mesh.yaml\
+|&emsp;|-- phonopy.yaml\
+|&emsp;|-- phonopy_disp.yaml\
+|&emsp;|-- disp-001\
+|&emsp;|&emsp;|-- CHG\
+|&emsp;|&emsp;|-- CHGCAR\
+|&emsp;|&emsp;|-- CONTCAR\
+|&emsp;|&emsp;|-- DOSCAR\
+|&emsp;|&emsp;|-- EIGENVAL\
+|&emsp;|&emsp;|-- IBZKPT\
+|&emsp;|&emsp;|-- INCAR\
+|&emsp;|&emsp;|-- KPOINTS\
+|&emsp;|&emsp;|-- OSZICAR\
+|&emsp;|&emsp;|-- OUTCAR\
+|&emsp;|&emsp;|-- PCDAT\
+|&emsp;|&emsp;|-- POSCAR\
+|&emsp;|&emsp;|-- POTCAR\
+|&emsp;|&emsp;|-- REPORT\
+|&emsp;|&emsp;|-- WAVECAR\
+|&emsp;|&emsp;|-- XDATCAR\
+|&emsp;|&emsp;|-- jobscript\
+|&emsp;|&emsp;|-- vasp.log\
+|&emsp;|&emsp;`-- vasprun.xml  
+|&emsp;|-- disp-002\
+|&emsp;|&emsp;...\
+|&emsp;...\
+|&emsp;`-- thermal_properties.yaml\  
 |-- phonon-01\  
 ...\
 ...\
